@@ -1,0 +1,102 @@
+.headerbox {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 235px; /* Фиксированная ширина в пикселях */
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-link {
+    display: flex;
+    padding: 12.5px;
+    border-radius: 8px;
+    color: black;
+    align-items: center;
+}
+
+.header-link:hover {
+    background: #f0f0f0;
+}
+
+.home {
+    background: #f0f0f0;
+}
+
+.h-link-label {
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+.logobox {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.logobox a {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    color: black;
+    font-weight: 200;
+    line-height: 1;
+}
+
+/* Стили для сетки карточек */
+.video-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 250px)); /* Фиксированная ширина карточек */
+    gap: 20px;
+    padding: 20px;
+    margin-left: 235px; /* Соответствует ширине sidebar */
+    background: white;
+    justify-content: center; /* Центрирование карточек */
+}
+
+.video-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Фиксированная ширина */
+}
+
+.video-thumbnail {
+    height: 140px;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.video-info {
+    padding: 12px;
+}
+
+.video-title {
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.video-channel {
+    margin: 0;
+    color: #666;
+    font-size: 12px;
+}
